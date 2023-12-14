@@ -1,7 +1,5 @@
 urls = [
-    "https://www.ponteonline.com/en/lot-details/auction/631/lot/1416/GATTLE+Lotto+composto+da+gemelli+di+cm+circa+orecchini+di+cm+circa+in",
-    "https://www.ponteonline.com/en/lot-details/auction/631/lot/1417/Lotto+composto+da+una+spilla+pendente+in+oro+argento+traforata+di+cm+circa",
-    "https://www.ponteonline.com/en/lot-details/auction/631/lot/1418/Demi+parure+in+oro+333+1000+paste+vitree+composta+da+collier+de+chien+moduli",
+    "",
     # Add the rest of the URLs here
 ]
 
