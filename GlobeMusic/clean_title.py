@@ -2,7 +2,7 @@ import re
 
 def clean_title(title):
     # Remove '-' and "'"
-    title = title.replace('-', ' ').replace("'", "").replace("&", "").replace("(", "").replace(")", "").replace("up", "").replace("Up", "").replace("  ", " ")
+    title = title.replace('-', ' ').replace("'", "").replace("&", "").replace("(", "").replace(")", "").replace("up", "").replace("Up", "").replace("  ", " ").replace("Sample", "").replace("Samples", "").replace("Loop", "")
 
     # Remove words starting with a small letter
     title = ' '.join(word for word in title.split() if not word[0].islower())
