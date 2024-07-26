@@ -8,7 +8,7 @@ with open('/Users/abidhassan/Documents/Code/Python/Data_collection/GlobeMusic/ou
     # Loop through each artist name
     for artist in artists:
         # Print the artist name 10 times
-        for _ in range(13):
+        for _ in range(40):
             outfile.write(artist + '\n')
 
 print("Output written to output.txt")
