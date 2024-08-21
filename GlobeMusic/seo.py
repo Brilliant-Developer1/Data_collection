@@ -26,7 +26,10 @@ def process_song_titles(main_input_file, seo_input_file, output_file):
             seo_index += 1
         if len(chunk) >= 8:
             chunk[7] = seo_titles[seo_index % seo_len]
-            seo_index += 1    
+            seo_index += 1
+        if len(chunk) >= 10:
+            chunk[9] = seo_titles[seo_index % seo_len]
+            seo_index += 1        
         if len(chunk) >= 12:
             chunk[11] = seo_titles[seo_index % seo_len]
             seo_index += 1
@@ -36,6 +39,9 @@ def process_song_titles(main_input_file, seo_input_file, output_file):
         if len(chunk) >= 20:
             chunk[19] = seo_titles[seo_index % seo_len]
             seo_index += 1
+        if len(chunk) >= 23:
+            chunk[22] = seo_titles[seo_index % seo_len]
+            seo_index += 1    
         if len(chunk) >= 25:
             chunk[24] = seo_titles[seo_index % seo_len]
             seo_index += 1
@@ -45,6 +51,9 @@ def process_song_titles(main_input_file, seo_input_file, output_file):
         if len(chunk) >= 30:
             chunk[29] = seo_titles[seo_index % seo_len]
             seo_index += 1
+        if len(chunk) >= 32:
+            chunk[31] = seo_titles[seo_index % seo_len]
+            seo_index += 1    
         if len(chunk) >= 35:
             chunk[34] = seo_titles[seo_index % seo_len]
             seo_index += 1              
